@@ -1,1 +1,16 @@
 
+N=0
+def primenum(x):
+  if x>=2:
+    for y in range (2, x):
+      if not(x%y):
+        return False
+  else:
+    return False
+  return True
+  
+for i in range(int(input("How many numbers to check: "))):
+  if primenum(i):
+    N+=1
+    print(i)
+print("There are "+str(N)+ " prime numbers.")
