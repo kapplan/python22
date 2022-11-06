@@ -8,7 +8,7 @@ def primenum(x):
     return False
   return True
   
-for i in range(int(input("How many numbers to check: "))):
+for i in range(int(input("Numbers to check: "))):
   if primenum(i):
     N+=1
     print(i)
