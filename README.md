@@ -1,2 +1,2 @@
-# Python homework
-*Python code for finding the first n prime numbers*
+#Python codes from the class 20221 11:40
+*Python codes*
