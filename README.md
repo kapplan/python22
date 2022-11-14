@@ -1,2 +1,2 @@
-# Python codes from the class 20221 11:40
+# Python codes for the class 20221 11:40
 
