@@ -1,4 +1,4 @@
-# open the file
+#open the file
 my_file = 'my_txt_file.txt'
 i = 0
 with open(my_file, 'r') as f:
@@ -7,7 +7,7 @@ with open(my_file, 'r') as f:
         i += 1
         print("%i: %s" % (i, line))
    
-# function to count the elements of the file
+#function to count the elements of the file
 def count(elements):
 
 	# check if each word has '.' at thee end. If so, ignore '.'
@@ -24,14 +24,14 @@ def count(elements):
     
 
 contents = f.read()
-dictionary = {}
 
+dictionary = {}
 lst = contents.split()
 
 for elements in lst:
 	count(elements)
 
-# print the keys and its values
+#prints keys and their values
 for allKeys in dictionary:
 	print ("Frequency of ", allKeys, end = " ")
 	print (":", end = " ")
