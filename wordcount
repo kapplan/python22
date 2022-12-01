@@ -1,0 +1,39 @@
+# open the file
+my_file = 'my_txt_file.txt'
+i = 0
+with open(my_file, 'r') as f:
+    lines = f.readlines()
+    for line in lines:
+        i += 1
+        print("%i: %s" % (i, line))
+   
+# function to count the elements of the file
+def count(elements):
+
+	# check if each word has '.' at thee end. If so, ignore '.'
+	if elements[-1] == '.':
+		elements = elements[0:len(elements) - 1]
+
+	# if there exists a key as "elements" then increase the value
+	if elements in dictionary:
+		dictionary[elements] += 1
+
+	# if the dictionary does not have the key, then create a key "elements" and assign its value to 1
+	else:
+		dictionary.update({elements: 1})
+    
+
+contents = f.read()
+dictionary = {}
+
+lst = contents.split()
+
+for elements in lst:
+	count(elements)
+
+# print the keys and its values
+for allKeys in dictionary:
+	print ("Frequency of ", allKeys, end = " ")
+	print (":", end = " ")
+	print (dictionary[allKeys], end = " ")
+	print()
