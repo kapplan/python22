@@ -4,5 +4,5 @@ Welcome to my GitHub repository showcasing Python projects I developed during my
 
 ## Contact
 
-- LinkedIn: https://www.linkedin.com/in/basak-kaplan-/
+- LinkedIn: https://www.linkedin.com/in/ba%C5%9Fak-kaplan-/
 - Email: bk124084@student.sgh.waw.pl
