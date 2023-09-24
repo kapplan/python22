@@ -26,7 +26,7 @@ x = [1, 2, 3]
 a = np.repeat(x, n)
 print('\nexercise 2 repeat\n', a)
 b = np.tile(x, n)
-print('\nexercise 2 tile\n', b)  # a second alternative presented in case of misunderstanding "cyclic pattern"
+print('\nexercise 2 tile\n', b)  # second alternative presented in case of misunderstanding "cyclic pattern"
 
 """
 3.	Create a 10×10 matrix of zeros and then 
